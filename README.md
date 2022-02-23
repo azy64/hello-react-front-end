@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Hello Rails Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Hello Rails Frontend](#hello-rails-frontend)
+  - [Table of Contents](#table-of-contents)
+  - [About Project](#about-project)
+  - [📦 Built With](#-built-with)
+  - [Getting Started](#getting-started)
+  - [Contributing](#contributing)
+  - [Show your support](#show-your-support)
 
-In the project directory, you can run:
+## About Project
 
-### `yarn start`
+Front end for a react & ruby on rails application
+backend [link](https://github.com/MrBrN197/hello-rails-backend)
+ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJS
+- Redux
+- `react-router-dom`
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Clone this repo <https://github.com/azy64/hello-react-front-end.git>
 
-### `yarn build`
+    ```bash
+    git clone https://github.com/azy64/hello-react-front-end.git
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Navigate to hello-rails-frontend folder/directory
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    cd hello-rails-frontend
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- On the comandline, at the project's root, run ```npm install``` to install app dependencies
 
-### `yarn eject`
+- Next, run ```npm start``` which will run the app in the development mode.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ALTERNATIVELY
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - Just run ```npm run build``` which will build the project and generate output files into the ```build``` directory.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  - Go to ```build``` directory and manually open ```index.html``` to interact with the app
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions, issues, and feature requests are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to check the [issues page](../issues)
 
-### Code Splitting
+  1. Fork the Project
+  2. Create your Feature Branch (`git checkout -b feature/newFeature`)
+  3. Commit your Changes (`git commit -m 'Add some newFeature'`)
+  4. Push to the Branch (`git push -u origin feature/newFeature`)
+  5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Azaria SAIDI**
 
-### Analyzing the Bundle Size
+- GitHub: [@azy64](https://github.com/azy64)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/azaria-saidi-524780112/)
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
