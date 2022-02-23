@@ -1,9 +1,13 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchmessage } from '../redux/message/messageReducer';
 
 const Greeting = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchmessage());
+  }, []);
   const message = useSelector((state) => state.messageReducer.message);
-  // console.log('message::', message);
   return (
     <div>
       Message:
@@ -13,7 +17,4 @@ const Greeting = () => {
   );
 };
 
-/* Greeting.propTypes = {
-  message: PropTypes.string
-}; */
 export default Greeting;

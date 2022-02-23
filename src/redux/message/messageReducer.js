@@ -21,7 +21,7 @@ const messageReducer = (state = initState, action) => {
 };
 export const fetchmessage = () => async (dispatch) => {
   dispatch({ type: 'FETCHING_MESSAGE' });
-  await fetch('http://127.0.0.1:3000/messages')
+  await fetch('http://127.0.0.1:3001/messages')
     .then((res) => res.json())
     .then((data) => {
       dispatch({ type: 'COMPLETE_MESSAGE', payload: data });

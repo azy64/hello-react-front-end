@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
-import messageReducer, { fetchmessage } from './message/messageReducer';
+import messageReducer from './message/messageReducer';
 
 const reducer = combineReducers({
   messageReducer,
@@ -10,5 +10,5 @@ const store = createStore(
   applyMiddleware(thunk),
 );
 
-store.dispatch(fetchmessage());
+// store.dispatch(fetchmessage());
 export default store;
